@@ -1,0 +1,155 @@
+.wrapper {
+  /* max-width: 1440px; */
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.container {
+  /* max-width: 1170px; */
+  margin: 0 auto;
+  /* padding: 0 15px; */
+}
+body {
+  /* font-family: "Dancing Script", cursive; */
+}
+.header-container {
+  background-color: rgb(213, 175, 175);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+  background-color: black;
+}
+.header-text {
+  font-size: 30px;
+  font-weight: bold;
+}
+.text-item {
+  color: #fff;
+  margin-left: 210px;
+  cursor: pointer;
+  font-family: "Dancing Script", cursive;
+}
+.menu-text {
+  color: #fdbe37;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.menu-right {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin-right: 100px;
+  cursor: pointer;
+}
+.order {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.button-item {
+  text-align: center;
+  background-color: #fdbe37;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  border-radius: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-right: 50px;
+}
+.hamburger-container {
+  color: white;
+}
+.hamburger-image {
+  max-width: 100%;
+  max-height: 100%;
+}
+.hamburger-image img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  width: 100%;
+  height: 595px;
+}
+.hamburger-content {
+  position: absolute;
+  color: white;
+  top: 30%;
+  left: 14%;
+  width: 555px;
+}
+.hamburger-heading {
+  font-size: 50px;
+  font-family: "Dancing Script", cursive;
+}
+.hamburger-desc {
+  margin-top: 20px;
+  font-size: 16px;
+}
+.button-bg {
+  margin-top: 30px;
+  color: white;
+  background-color: #fdbe37;
+  padding: 20px 50px;
+  text-align: center;
+  border-radius: 30px;
+}
+.dot {
+  display: flex;
+  align-items: center;
+  margin-top: 150px;
+  gap: 10px;
+}
+.dot1,
+.dot2 {
+  color: white;
+  font-size: 10px;
+}
+.dot3 {
+  color: #fdbe37;
+}
+.intro-container {
+  background-color: rgb(33, 40, 50);
+}
+.intro-image {
+  max-width: 100%;
+  max-height: 100%;
+}
+.intro-image img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 100px;
+}
+.intro-content {
+  position: absolute;
+  color: white;
+  position: absolute;
+  top: 138%;
+  left: 54%;
+  width: 665px;
+}
+.intro-heading {
+  font-family: "Dancing Script", cursive;
+  font-size: 50px;
+  color: white;
+}
+.intro-desc {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.intro-button {
+  background-color: #fdbe37;
+  color: white;
+  text-align: center;
+  padding: 10px 40px;
+  border-radius: 50px;
+}
